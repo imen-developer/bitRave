@@ -1,0 +1,23 @@
+{
+    "name": "achouri/bitRave",
+    "description": "",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "extra": {
+        "public-dir": "web/"
+    },
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "symfony/routing": "^3.4",
+        "symfony/http-kernel": "^3.4",
+        "symfony/event-dispatcher": "^3.4",
+        "symfony/templating": "^3.4",
+        "symfony/dependency-injection": "^3.4"
+    }
+    
+}
